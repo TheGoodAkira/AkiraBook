@@ -1,0 +1,56 @@
+body {
+    color:white;
+    background:black;
+    margin: 0px;
+    font-family:"Lora", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(100, 0, 0);
+    padding: 20px;
+    font-size: 40px;
+    color:rgb(100, 0, 0);
+}
+
+.chamada{
+    background-color: black;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria-romance{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-romance img{
+opacity: 0.5;
+height: 200px;
+}
+
+.categoria-romance img:hover{
+    opacity: 1;
+    border: 2px solid rgb(150, 0, 0);
+}
+
+.categoria h2{
+    color: rgb(100, 0, 0);
+}
