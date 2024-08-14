@@ -106,3 +106,29 @@ height: 200px;
 .categoria h2{ 
     color :rgb(100, 0, 0);
 }
+
+.categoria-fantasia{
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-fantasia img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-fantasia img:hover{
+    opacity: 1;
+    border: 2px solid rgb(150, 0, 0);
+}
+
+.categoria h2{ 
+    color :rgb(100, 0, 0);
+}
